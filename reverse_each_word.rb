@@ -4,5 +4,5 @@ def reverse_each_word(stringarg)
   stringarg1.collect{
     |str| empty.push(str.reverse)
   }
-  empty
+  empty.join(" ")
 end
